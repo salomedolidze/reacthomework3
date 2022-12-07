@@ -28,7 +28,7 @@ function App() {
   const removeRendomList = () => {
     const randomlist = names[Math.floor(Math.random() * names.length)];
     setNames(names.filter((element) =>{
-      return  element !== randomlist
+      return  element !=== randomlist
     }));
   };
 
